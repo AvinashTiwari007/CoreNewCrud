@@ -23,11 +23,11 @@ jobs:
       - name: Restore Dependencies
         run: dotnet restore
 
-      - name: Build
-        run: dotnet build CoreNewCrud.slnx -c Release
+    #  - name: Build
+      #  run: dotnet build CoreNewCrud.slnx -c Release
 
       - name: Publsih Code
-        run: dotnet publish CoreNewCrud.slnx --configuration Release --output ./publish
+        run: dotnet publish CudWebApps.slnx --configuration Release --output ./publish
 
 
 
