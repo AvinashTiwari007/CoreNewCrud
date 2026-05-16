@@ -8,6 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
       - name: Install Dotnet Version
         uses: actions/setup-dotnet@v4
         with:
