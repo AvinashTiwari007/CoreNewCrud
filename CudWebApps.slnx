@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CudWebApps/CudWebApps.csproj" />
+  <Project Path="WebAPINew/WebAPINew.csproj" Id="11ac2754-3abf-4642-9e43-e0f8ea7f2b09" />
+</Solution>

@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Preperation\\CudWebApps\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11AC2754-3ABF-4642-9E43-E0F8EA7F2B09}|WebAPINew\\WebAPINew.csproj|e:\\preperation\\cudwebapps\\webapinew\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11AC2754-3ABF-4642-9E43-E0F8EA7F2B09}|WebAPINew\\WebAPINew.csproj|solutionrelative:webapinew\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CAAD54-E64D-6AF8-9238-892AD774BF28}|CudWebApps\\CudWebApps.csproj|e:\\preperation\\cudwebapps\\cudwebapps\\controllers\\usersinfoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CAAD54-E64D-6AF8-9238-892AD774BF28}|CudWebApps\\CudWebApps.csproj|solutionrelative:cudwebapps\\controllers\\usersinfoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CAAD54-E64D-6AF8-9238-892AD774BF28}|CudWebApps\\CudWebApps.csproj|e:\\preperation\\cudwebapps\\cudwebapps\\models\\swassnewdb3context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CAAD54-E64D-6AF8-9238-892AD774BF28}|CudWebApps\\CudWebApps.csproj|solutionrelative:cudwebapps\\models\\swassnewdb3context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CAAD54-E64D-6AF8-9238-892AD774BF28}|CudWebApps\\CudWebApps.csproj|e:\\preperation\\cudwebapps\\cudwebapps\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CAAD54-E64D-6AF8-9238-892AD774BF28}|CudWebApps\\CudWebApps.csproj|solutionrelative:cudwebapps\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CAAD54-E64D-6AF8-9238-892AD774BF28}|CudWebApps\\CudWebApps.csproj|e:\\preperation\\cudwebapps\\cudwebapps\\views\\usersinfoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26CAAD54-E64D-6AF8-9238-892AD774BF28}|CudWebApps\\CudWebApps.csproj|solutionrelative:cudwebapps\\views\\usersinfoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CAAD54-E64D-6AF8-9238-892AD774BF28}|CudWebApps\\CudWebApps.csproj|e:\\preperation\\cudwebapps\\cudwebapps\\views\\usersinfoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26CAAD54-E64D-6AF8-9238-892AD774BF28}|CudWebApps\\CudWebApps.csproj|solutionrelative:cudwebapps\\views\\usersinfoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\Preperation\\CudWebApps\\WebAPINew\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebAPINew\\Controllers\\ProductController.cs",
+              "ToolTip": "E:\\Preperation\\CudWebApps\\WebAPINew\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebAPINew\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T15:03:03.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Preperation\\CudWebApps\\CudWebApps\\Views\\UsersInfoes\\Create.cshtml",
+              "RelativeDocumentMoniker": "CudWebApps\\Views\\UsersInfoes\\Create.cshtml",
+              "ToolTip": "E:\\Preperation\\CudWebApps\\CudWebApps\\Views\\UsersInfoes\\Create.cshtml",
+              "RelativeToolTip": "CudWebApps\\Views\\UsersInfoes\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-30T20:37:27.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersInfoesController.cs",
+              "DocumentMoniker": "E:\\Preperation\\CudWebApps\\CudWebApps\\Controllers\\UsersInfoesController.cs",
+              "RelativeDocumentMoniker": "CudWebApps\\Controllers\\UsersInfoesController.cs",
+              "ToolTip": "E:\\Preperation\\CudWebApps\\CudWebApps\\Controllers\\UsersInfoesController.cs",
+              "RelativeToolTip": "CudWebApps\\Controllers\\UsersInfoesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T07:59:03.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Preperation\\CudWebApps\\CudWebApps\\Views\\UsersInfoes\\Index.cshtml",
+              "RelativeDocumentMoniker": "CudWebApps\\Views\\UsersInfoes\\Index.cshtml",
+              "ToolTip": "E:\\Preperation\\CudWebApps\\CudWebApps\\Views\\UsersInfoes\\Index.cshtml",
+              "RelativeToolTip": "CudWebApps\\Views\\UsersInfoes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-29T08:19:47.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Preperation\\CudWebApps\\CudWebApps\\Program.cs",
+              "RelativeDocumentMoniker": "CudWebApps\\Program.cs",
+              "ToolTip": "E:\\Preperation\\CudWebApps\\CudWebApps\\Program.cs",
+              "RelativeToolTip": "CudWebApps\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T07:50:23.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SwasSnewDb3Context.cs",
+              "DocumentMoniker": "E:\\Preperation\\CudWebApps\\CudWebApps\\Models\\SwasSnewDb3Context.cs",
+              "RelativeDocumentMoniker": "CudWebApps\\Models\\SwasSnewDb3Context.cs",
+              "ToolTip": "E:\\Preperation\\CudWebApps\\CudWebApps\\Models\\SwasSnewDb3Context.cs",
+              "RelativeToolTip": "CudWebApps\\Models\\SwasSnewDb3Context.cs",
+              "ViewState": "AgIAAJwAAACAXzMzMzPjv60AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T07:47:27.414Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

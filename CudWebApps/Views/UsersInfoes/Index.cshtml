@@ -1,0 +1,167 @@
+﻿@model IEnumerable<CudWebApps.Models.UsersInfo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsEmailVerified)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CompanyName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CityId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MembershipType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MembershipUpdated)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BuyerTypeCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SellerDiscCodes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SellerTopDiscPer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ValidUpto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreateDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UpdateDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsEnabled)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailVerifyCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MobileVerifyCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsMobileVerified)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LoginOtp)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Otpdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SignupVia)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsEmailVerified)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompanyName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CityId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MembershipType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MembershipUpdated)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BuyerTypeCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SellerDiscCodes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SellerTopDiscPer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValidUpto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UpdateDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsEnabled)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailVerifyCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MobileVerifyCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsMobileVerified)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoginOtp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Otpdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SignupVia)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.UserGuid">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.UserGuid">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.UserGuid">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
