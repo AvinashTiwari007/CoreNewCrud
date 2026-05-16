@@ -13,6 +13,9 @@ jobs:
         with:
           dotnet-version: '10.0'
 
+      - name: Script
+        run: pwd
+
       - name: Restore Dependencies
         run: dotnet restore "*.slnx"
 
