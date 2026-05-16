@@ -14,7 +14,7 @@ jobs:
           dotnet-version: '10.0'
 
       - name: Restore Dependencies
-        run: dotnet restore
+        run: dotnet restore "*.slnx"
 
       - name: Publsih Code
         run: dotnet publish --configuration Release --no-build --output ./publish
