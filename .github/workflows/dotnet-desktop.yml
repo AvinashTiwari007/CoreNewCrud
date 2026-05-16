@@ -1,5 +1,6 @@
 name: CRUDPipeline
-on: "main"
+on: 
+  branches: ["main"]
 jobs:
   # Job 1: Build and Test (Continuous Integration)
   build-and-test:
