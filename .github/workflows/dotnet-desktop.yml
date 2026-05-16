@@ -1,0 +1,32 @@
+name: CRUDPipeline
+on: 
+- main
+jobs:
+  # Job 1: Build and Test (Continuous Integration)
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install Dotnet Version
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.'
+
+      - name: Restore Dependencies
+        run: dotnet restore
+
+      - name: Publsih Code
+        run: dotnet publish --configuration Release --no-build --output ./publish
+
+
+
+
+
+
+
+
+
+
+
+
+      
